@@ -1,0 +1,15 @@
+{
+  "name": "bettership-development",
+  "version": "0.1.5",
+  "description": "Use your published Bettership skills, prompts, context packs, and Library in Claude.",
+  "author": {
+    "name": "Bettership"
+  },
+  "homepage": "https://bettership.ai",
+  "keywords": [
+    "bettership",
+    "learning",
+    "skills",
+    "library"
+  ]
+}

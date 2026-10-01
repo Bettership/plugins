@@ -1,0 +1,17 @@
+{
+  "name": "bettership-development",
+  "owner": {
+    "name": "Bettership"
+  },
+  "metadata": {
+    "description": "Use published Bettership items and Library resources in Claude."
+  },
+  "plugins": [
+    {
+      "name": "bettership-development",
+      "source": "./plugins/bettership-development",
+      "description": "Use your published Bettership skills, prompts, context packs, and Library in Claude.",
+      "version": "0.1.5"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bettership-development": {
+      "type": "http",
+      "url": "https://bettership-api-staging.up.railway.app/mcp"
+    }
+  }
+}

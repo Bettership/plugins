@@ -6,7 +6,7 @@ Use your Bettership Library, skills, prompts, and context packs in Claude. Insta
 
 ## Set up Claude
 
-1. Open [Claude’s Plugins page](https://claude.ai/customize/plugins). Choose **Add → Add marketplace**, paste `https://github.com/Bettership/plugins`, and select **Sync**. Add **Bettership development** from the results.
+1. Open [Claude’s Plugins page](https://claude.ai/customize/plugins). Choose **Add → Add marketplace**, paste `https://github.com/Bettership/plugins`, turn off **Sync automatically**, and select **Sync**. Add **Bettership development** from the results.
 2. Open the plugin’s **Connectors** tab. Select **Add** if shown, then **Connect**. Sign in to Bettership and choose what Claude can access.
 3. Start a new conversation and ask: **“Show me the items I’ve published in Bettership.”** Ask Claude to use an item by name.
 
@@ -16,7 +16,7 @@ Requires a Claude plan with plugins and Bettership Pro or Max. If your work acco
 
 In Bettership Studio, open an item and publish it to your AI tools. Enable **Publish updates automatically** to make future completed revisions available too. Claude gets the current published version the next time you use it. A task already underway keeps the version it started with.
 
-Your items stay in Bettership. You do not need to download or reinstall them. Automatic publishing does not make Maker create revisions on a schedule.
+Your items stay in Bettership. You do not need to download or reinstall them. Published items stay up to date without marketplace auto-sync or GitHub App access. Automatic publishing does not make Maker create revisions on a schedule.
 
 ## Cowork and Claude Code
 

@@ -1,0 +1,16 @@
+{
+  "name": "bettership-development",
+  "version": "0.1.7",
+  "description": "Use your published Bettership skills, prompts, context packs, and Library.",
+  "author": {
+    "name": "Bettership"
+  },
+  "homepage": "https://bettership.ai",
+  "keywords": [
+    "bettership",
+    "learning",
+    "skills",
+    "library"
+  ],
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+}

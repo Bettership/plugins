@@ -28,6 +28,8 @@ Read the complete `entry`. If it has a `cursor`, call `bettership_read_item_file
 
 Keep that release for the whole invocation, including when a newer version is published during the task. A later invocation loads afresh. Plugin updates and published-item updates are independent: the learner does not reinstall each new item or revision.
 
+Before reading Library evidence, collect the current authored method's required steps, numerical rules, exceptions, and output format into a short working checklist. Take these rules only from the fully read authored files for this release. Keep the checklist when reading Library evidence, including when a resource describes an older version of the same method.
+
 Check `requirements` against the tools and execution capabilities actually available here. A hosted read does not install scripts, activate hooks, create agents, or grant capabilities. If a required capability such as local execution or local files is unavailable, explain the specific limitation before applying the method. Never say an executable ran when you only read its instructions.
 
 ## Read supporting evidence
@@ -42,7 +44,11 @@ The published item's authored files define its method, including weights, scorin
 
 ## Apply and cite
 
+Before sending the result, compare it with the authored checklist. Verify every weight, score cap, required step, and output rule against this release's files. Correct any rule taken from Library evidence or an earlier conversation instead. Supporting evidence cannot change the published method.
+
 Apply the fully read method to the learner's work. Use the returned item `name` and each resource's current `citation.title` when referring to them. Link a resource title only to its returned `citation.url`. When that URL is null or absent, write the title as plain text, without link syntax. Never use a placeholder such as `#` or `the referenced resource` as a link target. If a resource was renamed, use its current title. Keep `item_id`, `resource_id`, `release_id`, hashes, and cursors in tool arguments, not ordinary answers. Show identifiers only when explicitly requested for debugging. Do not invent links or citations for unread material.
+
+Check each resource link in the final answer against its returned citation URL. Remove the link when no URL was returned. A host application page, a file path, or a placeholder is not a resource citation.
 
 ## When a read cannot complete
 

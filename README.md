@@ -10,7 +10,7 @@ Use your Bettership Library, skills, prompts, and context packs in Claude. Insta
 2. Open the plugin’s **Connectors** tab. Select **Add** if shown, then **Connect**. Sign in to Bettership and choose what Claude can access.
 3. Start a new conversation and ask: **“Show me the items I’ve published in Bettership.”** Ask Claude to use an item by name.
 
-Requires a Claude plan with plugins and Bettership Pro or Max. If your work account blocks setup, ask its owner to allow the plugin and add its connector.
+Requires a Claude plan with plugins and Bettership Plus or Max. If your work account blocks setup, ask its owner to allow the plugin and add its connector.
 
 ## Publish and update
 

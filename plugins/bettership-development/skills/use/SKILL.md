@@ -50,7 +50,7 @@ Use the structured error code to give one useful next step:
 
 - `authentication_required`: reconnect Bettership and sign in again in this AI tool.
 - `insufficient_scope`: reconnect with the permission this task needs (published items or Library). Do not request unrelated access. Library-only work can continue without published-item access.
-- `plan_required`: Bettership connector access requires Pro or Max. The existing billing grace period is handled by Bettership, not a judgment you make from cached account information.
+- `plan_required`: Bettership connector access requires Plus or Max. The existing billing grace period is handled by Bettership, not a judgment you make from cached account information.
 - `content_unavailable`: the item, release, file, or resource is no longer available. Stop a method that requires it and explain what is missing. Do not silently use a cached copy or a different release.
 - `resource_processing`, `retrieval_unavailable`, or `temporarily_unavailable`: explain which read could not finish. Do not claim the work is grounded in content you could not read.
 - `rate_limited`: respect `retry_after_seconds`. Do not start an automatic retry loop.

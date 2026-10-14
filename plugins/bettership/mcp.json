@@ -1,9 +1,9 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "bettership-development": {
+    "bettership": {
       "type": "streamable-http",
-      "url": "https://bettership-api-staging.up.railway.app/mcp"
+      "url": "https://api.bettership.ai/mcp"
     }
   }
 }

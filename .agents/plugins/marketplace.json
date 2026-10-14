@@ -1,14 +1,14 @@
 {
-  "name": "bettership-development",
+  "name": "bettership",
   "interface": {
-    "displayName": "Bettership development"
+    "displayName": "Bettership"
   },
   "plugins": [
     {
-      "name": "bettership-development",
+      "name": "bettership",
       "source": {
         "source": "local",
-        "path": "./plugins/bettership-development"
+        "path": "./plugins/bettership"
       },
       "policy": {
         "installation": "AVAILABLE",

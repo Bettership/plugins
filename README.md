@@ -2,11 +2,11 @@
 
 Use your Bettership Library, skills, prompts, and context packs in Claude. Install once, then publish items from Bettership Studio whenever you want to use them.
 
-**Development release:** this plugin connects to Bettership’s development service. Use your Bettership development account; production accounts and items are separate.
+
 
 ## Set up Claude
 
-1. Open [Claude’s Plugins page](https://claude.ai/customize/plugins). Choose **Add → Add marketplace**, paste `https://github.com/Bettership/plugins`, turn off **Sync automatically**, and select **Sync**. Add **Bettership development** from the results.
+1. Open [Claude’s Plugins page](https://claude.ai/customize/plugins). Choose **Add → Add marketplace**, paste `https://github.com/Bettership/plugins`, turn off **Sync automatically**, and select **Sync**. Add **Bettership** from the results.
 2. Open the plugin’s **Connectors** tab. Select **Add** if shown, then **Connect**. Sign in to Bettership and choose what Claude can access.
 3. Start a new conversation and ask: **“Show me the items I’ve published in Bettership.”** Ask Claude to use an item by name.
 
@@ -25,10 +25,10 @@ The plugin is also available in Cowork and supported Claude Code versions when y
 For a direct installation in Claude Code 2.1.275 or later, paste:
 
 ```text
-/plugin install bettership-development --marketplace Bettership/plugins
+/plugin install bettership --marketplace Bettership/plugins
 ```
 
-Then open `/mcp` and sign in to Bettership. Use `/bettership-development:use` to get started. Direct Claude Code installation does not install the plugin in Claude chat.
+Then open `/mcp` and sign in to Bettership. Use `/bettership:use` to get started. Direct Claude Code installation does not install the plugin in Claude chat.
 
 ## If something is missing
 

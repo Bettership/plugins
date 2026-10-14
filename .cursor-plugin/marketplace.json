@@ -1,14 +1,14 @@
 {
-  "name": "bettership-development",
+  "name": "bettership",
   "owner": {
     "name": "Bettership"
   },
   "plugins": [
     {
-      "name": "bettership-development",
-      "source": "./plugins/bettership-development",
+      "name": "bettership",
+      "source": "./plugins/bettership",
       "description": "Use your published Bettership skills, prompts, context packs, and Library.",
-      "version": "0.1.9"
+      "version": "0.1.10"
     }
   ]
 }

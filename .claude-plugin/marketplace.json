@@ -11,7 +11,7 @@
       "name": "bettership",
       "source": "./plugins/bettership",
       "description": "Use your published Bettership skills, prompts, context packs, and Library in Claude.",
-      "version": "0.1.10"
+      "version": "0.1.11"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Bettership for Claude
 
-Use your Bettership Library, skills, prompts, and context packs in Claude. Install once, then publish items from Bettership Studio whenever you want to use them.
+Bettership is a personal AI workspace for ambitious professionals leveling up with online learning. This plugin brings what you're learning into Claude. Ask about the courses, podcasts, articles, books and notes in your Bettership Library, and use the prompts, context packs and skills you've made from them without copying or installing files. Install once, then publish items from Bettership Studio whenever you want to use them.
 
 
 
@@ -36,4 +36,16 @@ Then open `/mcp` and sign in to Bettership. Use `/bettership:use` to get started
 - **An item needs a Library resource:** reconnect Bettership with Library access if you want Claude to read it.
 - **Asked to sign in again:** reconnect from Claude’s Connectors page or `/mcp` in Claude Code.
 
-The plugin supplies instructions and a connection. It does not install scripts that a Maker item needs or give Claude tools it does not have. Disconnecting stops future access; it cannot remove text already received by Claude.
+## What this plugin contains and connects to
+
+The plugin has two parts: one skill that tells Claude how to use Bettership, and a connection to Bettership's service at `https://api.bettership.ai/mcp`. It runs no scripts, installs nothing else, and does not give Claude tools it does not already have, including any a Maker item may call for.
+
+When you connect, Bettership asks you to sign in and shows what Claude is asking to read: your Library, your published items, or both. Claude can read what you allow and nothing more. It cannot add, change or delete anything in Bettership. Your practice history, your conversations with your Bettership agents and your learner profile stay in Bettership. Disconnecting stops future access. It cannot remove text Claude has already received.
+
+## Help and privacy
+
+- Setup guide: [Use what you made in your AI tools](https://docs.bettership.ai/apply/use-what-you-made-in-your-ai-tools)
+- Support: [support@bettership.ai](mailto:support@bettership.ai)
+- Privacy policy: [bettership.ai/privacy](https://www.bettership.ai/privacy)
+- Terms of service: [bettership.ai/terms](https://www.bettership.ai/terms)
+- License: MIT, in [LICENSE](LICENSE)

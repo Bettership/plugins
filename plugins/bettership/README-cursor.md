@@ -1,25 +1,39 @@
 # Bettership for Cursor
 
-Bring a method you've made in Bettership into your work in Cursor. The plugin connects your published skills, prompts, context packs, and Library. Each new use reads the current published version.
+Bring what you're learning into Cursor. Read your Bettership Library and use the prompts, context packs, and skills you've made from it.
 
-
+Bettership is a personal AI workspace for ambitious professionals leveling up with online learning. Ask Cursor about the courses, podcasts, articles, books, and notes you've added, or ask it to use a method you've made in Bettership on your work.
 
 ## Install and connect
 
-Production distribution has not been released. Do not install the development marketplace for a production account. Use the supplied package only when your destination supports its installation, and connect to Bettership's production service.
+1. In Cursor, open **Customize → Plugins → Add → From GitHub Repository** and enter `https://github.com/Bettership/plugins`. Add **Bettership** for yourself.
+2. Connect **Bettership**, sign in to Bettership, and review the requested access.
+3. Start a new chat and ask: **“Show me the items I've published in Bettership.”** Ask Cursor to use an item by name, or ask it a question about a resource in your Library.
 
-For development testing, copy this plugin folder under `~/.cursor/plugins/local/bettership`, then run **Developer: Reload Window**. Open **Customize** and confirm that the **use** skill and Bettership connection appear. Local imports must be allowed by your account's policy. Preserve an existing folder with this name instead of replacing its files. A marketplace installation with the same name takes precedence over a local copy.
+Requires Bettership Plus or Max, including active Plus beta access. The plugin connects to `https://api.bettership.ai/mcp`. If your organization restricts plugins, ask its owner to allow Bettership.
 
-An account marketplace can be imported under **Customize → Plugins → Add → From Local Repository**. Import a committed Git checkout of the supplied marketplace folder, then add **Bettership** for yourself. In Cursor 3.22.12, importing a generated folder without a commit displayed the plugin but failed to resolve `HEAD`. Adding a commit and reinstalling recovered the local connection. The earlier error disappeared after sign-in, when the connection displayed eight enabled tools and hosted reads succeeded. This route has not proved Grok Bot's cloud setup.
+This is the public GitHub installation route. Installation from Cursor's official marketplace is not yet verified.
 
-Connect **Bettership**, sign in to Bettership, and review the requested access. Start a new chat and ask: **“Show me the items I've published in Bettership.”** Ask Cursor to use an item by name. Pick the shared **use** skill when you want to invoke it directly.
+## Keep using what you make
 
-Installing the package does not prove that the account is connected. Bettership Plus or Max is required for fresh hosted reads. This package does not change other connections, project rules, or learner-edited files.
+Items available to your connected AI tools in Bettership Studio can be found and used in Cursor. Each new use reads the current published version. A task already underway keeps the version it started with. You don't reinstall the plugin for each item or revision.
 
-## Publish and keep using
+If an installed plugin still shows an older version after an update, run **Developer: Reload Window** and start a fresh chat. In earlier testing, Cursor displayed a two-line answer on one line while preserving the line break when copied. Exact display formatting can differ.
 
-Publish an item from Bettership Studio, then ask Cursor to use it. Publish a revision when you want a new version to become available. A task underway keeps its original version, and your next use loads the current one. You don't reinstall each item or revision.
+Grok Bot's cloud computer requires its own installation and sign-in. A successful Cursor connection does not verify Grok Bot.
 
-If a required reference is unavailable, Cursor should stop and explain what is missing. Reconnect with Library access when the method needs a resource. The plugin does not install scripts or grant execution tools.
+## What Cursor can read
 
-Disconnect Bettership in **Settings → Connectors & MCP** to stop future reads. Removing the plugin from Cursor may leave the connection authorized. Neither action removes text Cursor has already received. Grok Bot's cloud computer needs separate setup and verification.
+Bettership shows the access Cursor requests: your Library, your published items, or both. Cursor can read what you allow. It cannot add, change, or delete anything in Bettership. Your practice history, conversations with the Bettership agents, and learner profile stay in Bettership. Item files may contain personal context you chose to include.
+
+If an item needs a Library resource and that access is missing, reconnect with Library access. Disconnect in Bettership Settings to stop future reads. Removing the plugin from Cursor may leave its connection authorized. Disconnecting cannot remove text Cursor has already received.
+
+The plugin contains one shared skill and a connection to Bettership. It runs no scripts and does not give Cursor additional execution tools.
+
+## Help and privacy
+
+- Setup guide: [Use what you made in your AI tools](https://docs.bettership.ai/apply/use-what-you-made-in-your-ai-tools)
+- Support: [support@bettership.ai](mailto:support@bettership.ai)
+- Privacy policy: [bettership.ai/privacy](https://www.bettership.ai/privacy)
+- Terms of service: [bettership.ai/terms](https://www.bettership.ai/terms)
+- License: MIT, in [LICENSE](LICENSE)
